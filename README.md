@@ -25,8 +25,9 @@ Enhanced password processing scheme has certain difference when compared to trad
 By using VC random pattern number per pixels are generated for encryption. Generation random number has lower computational complexity than hash function because a pseudorandom number is obtained just by repeating exclusive-or (XOR). <br>
 This scheme is mostly used to prevent cyber attack such as brute force attack and dictionary attack as that often occurs in hash based scheme. Even if the attackers hack the saved image he or she may not be able to extract the original password because they are in the form of array of sub pixels. Even if the shared images are expanded and viewed the hackers may not get the entire information it resembles just like a mosaic model. Even if the attackers knew that it is made of certain shapes but they cannot identify what it  is and how the patterns are arranged. <br>
 Lastly, this scheme supports the privacy of user. The server saves only one shared image instead of the password and receives another shared image not to expose ID from user. As a result, no information of user such as ID or password is revealed in each shared image.
-
-REFERENCE
+<br>
+**REFERENCE**
+<br>
 Hamsalatha J, Alisha Erum K, Janani G S “Implementation of Visual Cryptography and OCR Techniques for Processing the Enhanced Password Mechanism”, ird India, ISSN(Online): 2347-2820, Volume -6, Issue-1_2, 2018
 
 
